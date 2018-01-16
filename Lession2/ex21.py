@@ -9,4 +9,5 @@ model = tf.global_variables_initializer()
 
 with tf.Session() as session:
 	session.run(model)
+	print(session.run(x))
 	print(session.run(y))
